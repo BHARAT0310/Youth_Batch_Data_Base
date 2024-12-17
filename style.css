@@ -1,0 +1,143 @@
+/* Base Styles */
+nav {
+    background-color: #333;
+    padding: 20px;
+    height: 20%; /* Set the width to 100% */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        width: 100%;
+    }
+}
+nav {
+    background-color: #333;
+    padding: 20px;
+    
+}
+nav ul li a:hover {
+    background-color: #111;
+    color: #fff;
+}
+nav {
+    border-radius: 10px;
+    /* ... other styles ... */
+}
+nav {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    /* ... other styles ... */
+}
+nav {
+    background: linear-gradient(to right, #333, #666);
+    /* ... other styles ... */
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 100%;
+  /* Other styles for the navigation bar */
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column; /* For vertical alignment */
+  /* Or flex-direction: row; for horizontal alignment */
+}
+
+nav li {
+  margin: 10px; /* Adjust the margin as needed */
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 24px;
+}
+nav ul {
+  display: flex;
+  flex-direction: column; /* For vertical alignment */
+  /* Or flex-direction: row; for horizontal alignment */
+}
+
+nav li {
+  flex: 1;
+  margin: 10px;
+}
+nav ul li {
+  margin: 10px 20px 30px; /* Adjust the values as needed */
+  padding: 10px 20px;
+}
+.navbar {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.navbar h2 {
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar li {
+  margin-bottom: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #111;
+}
+h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 36px;
+  color: #ff9900;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.form-container {
+  /* Adjust width as needed */
+  width: 640px;
+  margin: 0 auto; /* Center the form horizontally */
+  border: 1px solid #ddd; /* Add a subtle border */
+  border-radius: 5px; /* Add rounded corners */
+  padding: 10px; /* Add some padding for visual separation */
+}
